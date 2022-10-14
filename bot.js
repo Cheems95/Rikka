@@ -11,7 +11,7 @@ client.on('ready', () => {
         client.user.setActivity(activities_list[index]);
 	}, 10000);
 });
-
+//
 
 client.on("message", async message => {
 	if (!message.content.startsWith(prefix) || message.author.bot) return;
